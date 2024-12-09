@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+/*PARA QUITAR TODO AL DOCUMENTO*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*PARA ENCABEZADO, COLOR Y ALINEACION*/
+.encabezado{
+background-color: rgba(0, 215, 198, 0.3);
+text-align: center;
+padding: 50px;
+}
+/*PARA MODIFICAR EL TEXTO DEL ENCABEZADO*/
+.titulo{
+font-weight:bolder;
+font-size: 50px;
+color:rgb(22, 22, 122);
+/*text-decoration: none;*/
+text-shadow:
+0px 0px 20px #fbff00,
+0px 0px 30px #fbff00,
+5px 10px 6px rgba(37, 37, 2, 0.6);
+font-family: Anton SC , 'Times New Roman', Times, serif;
+letter-spacing: 3px;
+}
+/*DARLE COLOR AL NAV*/
+nav{
+   background-color: rgba(27, 27, 255, 0.226);
+   justify-items: center;
+}
+/*MODIFICAR LA CAJA DE LAS OPCIONES*/
+.opciones{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+/*MODIFICAR EL TEXTO DENTRO DE LAS CAJAS DE LAS OPCIONES*/
+.opciones li{
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    /*color: black;*/
+    font-family: Oswald, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*CUANDO PASE EL MOUSE SOBRE LAS OPCIONES*/
+.opciones li:hover{
+    background-color: #d3dbdb;
+    border-color: #06525f;
+    transform: scale(1.1);
+}
+.section-container{
+        margin: 75px;
+    border: 2px groove rgb(16, 50, 161);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.171);
+    position: relative;
+        gap: 20px;
+    text-align: justify;
+    }
+
+.section-container h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    
+       color: rgb(0, 0, 0);
+        background-color: rgba(70, 53, 83, 0.555);
+        justify-content: center;
+}
+.section-container p, .section-container dl, .section-container ul{
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.section-container img{
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    position:absolute;
+    top: 10px;
+    right: 10px;
+}
+#Habilidades ul{
+   text-align: center;
+   justify-items: center;
+}
+table{
+    margin: 20px;
+    width: 100%;
+    border-collapse: collapse;
+
+    justify-self: center;
+    }
+table, th, td{
+    border: 3px solid #06525f;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15%;
+    }
+    th{
+        font-size: 25px;
+        background-color:rgba(46, 130, 199, 0.521);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            td{
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: rgba(127, 255, 212, 0.301);
+            }
+
+/*TEXTO DE LAS CAJAS DE*/
+nav .opciones a{
+    font-size: 25px;
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background-color: rgba(158, 132, 252, 0.521);
+}
+.section-container1{
+    margin: 75px;
+    border: 2px groove rgb(16, 50, 161);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.171);
+    position: relative;
+        gap: 20px;
+    text-align: justify;
+}
+.section-container1 h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    
+       color: rgb(0, 0, 0);
+        background-color: rgba(70, 53, 83, 0.555);
+        justify-content: center;
+}
+
+.gdp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    }
+.pid h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-shadow:0px 0px 20px #fbff00,
+    0px 0px 20px #fbff00,
+    5px 10px 6px rgba(37, 37, 2, 0.6);   ;
+}
+.pid p{
+    font-size: 20px;
+    line-height: 1.6;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pid img{
+    width: 200px;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;    
+}
+.pid :hover{
+    background-color: #96c0c0;
+    border-color: #06525f;
+    transform: scale(1.0);
+}
+.gdp img:hover{
+    transform: scale(1.05);
+}
+fieldset{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #06525f;
+}
+label{
+    line-height: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],input[type="email"]{
+    width: 50%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    height: 40px;
+}
+textarea{
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    min-width: 250px;
+        resize: vertical;
+}
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #06525f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+button :hover{
+    background-color: #034d4f;
+}
+#Consulta{
+    background-color: rgba(0,215,198,0.3);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #06525f;
+}
+legend{
+    font-size: 30px;
+}
+footer{
+    text-align: right;
+}
+

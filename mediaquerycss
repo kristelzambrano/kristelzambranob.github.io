@@ -1,0 +1,57 @@
+@media (max-width: 480px) {
+    .opciones {
+        flex-direction: column; /* Cambiar a una columna en lugar de fila */
+        align-items: flex-start; /* Alinear los elementos a la izquierda */
+        padding: 0;
+        gap: 0.5rem;
+    }
+
+    .opciones li {
+        padding: 10px;
+        font-size: 18px;
+        width: 100%; /* Hacer que cada elemento ocupe todo el ancho */
+        text-align: center; /* Centrar el texto */
+    }
+
+    .section-container {
+        margin: 20px; /* Reducir márgenes */
+        padding: 15px; /* Reducir relleno */
+    }
+
+    .section-container img {
+        position: relative;
+        max-width: 150px; /* Reducir el tamaño de las imágenes */
+        margin-top: 10px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .gdp {
+        flex-direction: column; /* Apilar los proyectos verticalmente */
+    }
+
+    .pid {
+        flex-direction: column; /* Apilar las tarjetas de proyectos verticalmente */
+        align-items: center; /* Centrar los elementos dentro de cada tarjeta */
+    }
+
+    .pid img {
+        width: 100%; /* Hacer que las imágenes ocupen todo el ancho posible */
+        margin-left: 0;
+    }
+
+    fieldset {
+        width: 100%; /* Hacer que el formulario ocupe todo el ancho */
+        padding: 15px;
+    }
+
+    input[type="text"], input[type="email"], textarea {
+        width: 100%; /* Hacer que los campos de texto y el área de texto ocupen el 100% */
+        font-size: 14px; /* Reducir el tamaño de fuente */
+    }
+
+    button {
+        width: 100%; /* Hacer que los botones ocupen todo el ancho */
+        font-size: 16px; /* Reducir el tamaño de fuente */
+    }
+}
